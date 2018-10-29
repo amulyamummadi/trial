@@ -1,13 +1,14 @@
 package git.trial;
 
+import org.testng.annotations.Test;
+
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public class App {
+	@Test
+	public void checking() {
+		System.out.println("entered into @test");
+	}
 }
